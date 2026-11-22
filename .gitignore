@@ -1,4 +1,20 @@
-.env
+# Python & Environments
 venv/
+.venv/
 __pycache__/
-*.csv
+*.pyc
+.env
+
+# Notebook Checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Data Files (Keep the repo lightweight!)
+data/raw_movies.jsonl
+data/movies_clean.csv
+data/keywords/
+
+static_data/

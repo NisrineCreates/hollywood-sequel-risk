@@ -90,7 +90,7 @@ Create a .env file in the root directory and add your TMDB API Read Access Token
     ```
 ---
 
-##⚠️ Limitations
+## ⚠️ Limitations
 * Streaming Revenue: Public databases do not track per-title streaming revenue. The ROI analysis relies on theatrical box office, which excludes the economic value of streaming platforms (Netflix, Apple TV+).
 
 * Categorization: Classification relies on TMDB's community-generated keywords. While extensive, some films may be misclassified or lack tags.

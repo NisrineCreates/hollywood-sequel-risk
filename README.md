@@ -70,19 +70,21 @@ This isn't just a dashboard; it's the result of a full end-to-end data science p
    git clone https://github.com/YOUR_USERNAME/hollywood-sequel-risk.git
    cd hollywood-sequel-risk
     ```
-
+2. **Set up a virtual environment:**
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows: venv\Scripts\activate
     ```
-    
+3. **Install dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
+4. **Add your API Key:**
+Create a .env file in the root directory and add your TMDB API Read Access Token:
     ```bash
     TMDB_TOKEN=your_token_here
     ```
-
+5. **Run the app:**
     ```bash
     streamlit run app.py
     ```
